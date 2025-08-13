@@ -10,6 +10,7 @@ import (
 )
 
 func main() {
+	// Define GRPC and rest ports
 	grpcAddr := ":50051"
 	restPort := ":8080"
 
